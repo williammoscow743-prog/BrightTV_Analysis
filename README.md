@@ -289,6 +289,47 @@ Interactive filters include:
 The dashboard is designed to allow users to explore the data beyond the static report.
 
 ---
+## 11. Final Presentation
+
+The BrightTV Viewership Analytics findings were presented in a 20-minute data analytics presentation covering the complete analysis and business recommendations.
+
+### Presentation Contents
+
+The presentation covers:
+
+1. **Project Introduction**
+2. **Business Problem**
+3. **Business Questions & Objectives**
+4. **Data & Methodology**
+5. **Executive Overview**
+6. **Audience Analysis**
+7. **Age Group Analysis**
+8. **Geographic Analysis**
+9. **Viewing by Day of Week**
+10. **Viewing by Hour**
+11. **Channel Performance**
+12. **Factors Associated With Consumption**
+13. **Low-Consumption Day Analysis**
+14. **Content Recommendations**
+15. **Customer Growth Initiatives**
+16. **Interactive Dashboard**
+17. **Key Findings & Business Recommendations**
+18. **Conclusion**
+
+### Presentation File
+
+The final presentation is available in:
+
+`06_Presentation/BrightTV_Viewership_Analytics.pptx`
+
+### Presentation Preview
+
+A PDF version or slide preview can also be included in this repository for easy review.
+
+**Presentation:** [BrightTV Viewership Analytics](./06_Presentation/BrightTV_Viewership_Analytics.pptx)
+
+
+
 
 ## 11. Data Quality & Limitations
 
