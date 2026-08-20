@@ -285,7 +285,7 @@ Interactive filters include:
 - Channel
 - Day of Week
 - Hour
-
+https://tvinsight-hub.lovable.app
 The dashboard is designed to allow users to explore the data beyond the static report.
 
 ---
