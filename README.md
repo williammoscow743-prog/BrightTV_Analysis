@@ -288,6 +288,31 @@ Interactive filters include:
 https://tvinsight-hub.lovable.app
 The dashboard is designed to allow users to explore the data beyond the static report.
 
+## Interactive Dashboards
+
+### Looker Studio
+
+Explore the BrightTV Viewership Analytics dashboard:
+
+**[Open BrightTV Looker Studio Dashboard](https://datastudio.google.com/s/rTCqCmjZDh0)**
+
+The dashboard provides interactive analysis of:
+
+- Audience demographics
+- Age and gender
+- Province
+- Viewing by day
+- Viewing by hour
+- Channel performance
+- User and session behaviour
+- Key BrightTV insights
+
+### Lovable Dashboard
+
+**[Open BrightTV Interactive Dashboard](YOUR_LOVABLE_LINK)**
+
+The Lovable dashboard provides an additional interactive presentation of the BrightTV analysis.
+
 ---
 ## 11. Final Presentation
 
