@@ -9,6 +9,7 @@ profiles and viewing session data to turn raw behaviour into subscriber growth a
   <img src="https://img.shields.io/badge/sessions-9%2C995-8A7FE0" alt="sessions 9995">
   <img src="https://img.shields.io/badge/users-4%2C386-F5A623" alt="users 4386">
   <a href="https://tvinsight-hub.lovable.app"><img src="https://img.shields.io/badge/dashboard-live-E8A33D" alt="live dashboard"></a>
+  <a href="https://datastudio.google.com/s/sJkKNDXM2MQ"><img src="https://img.shields.io/badge/data%20studio-report-4285F4" alt="data studio report"></a>
 </p>
 
 ---
@@ -25,11 +26,13 @@ This case study answers four questions for the CVM team:
 
 ---
 
-## 📺 Live Dashboard
+## 📺 Dashboards
 
-**[tvinsight-hub.lovable.app](https://tvinsight-hub.lovable.app)** — an interactive
-dashboard covering subscriber demographics, top channels, and viewing patterns by hour
-and day, built from the analysis in this repo.
+- **[tvinsight-hub.lovable.app](https://tvinsight-hub.lovable.app)** — interactive
+  dashboard covering subscriber demographics, top channels, and viewing patterns by hour
+  and day.
+- **[Data Studio report](https://datastudio.google.com/s/sJkKNDXM2MQ)** — Google Data
+  Studio version of the same analysis, for stakeholders who prefer that format.
 
 ---
 
