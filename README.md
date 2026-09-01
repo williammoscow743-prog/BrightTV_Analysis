@@ -41,45 +41,46 @@ This case study answers four questions for the CVM team:
 ```
 BrightTV_Analysis/
 ├── README.md
-├── presentation/
-│   └── BrightTV_Viewership_Analytics.pptx
-├── diagrams/
-│   ├── BrightTV_MindMap.png
-│   ├── BrightTV_GanttChart.png
-│   └── preview/presentation_preview.png
-├── notebooks/
-│   └── BrightTV_Analysis.ipynb
-└── source-data/
-    ├── BrightTV_Case_Study.pdf
-    └── Bright_TV_-Dataset.xlsx
+├── BrightTV_Viewership_Presentation.pptx
+├── BrightTV_Analysis_Dashboard.ipynb
+├── BrightTV_MindMap.png
+├── BrightTV_GanttChart.png
+├── BrightTV_Project_Description.pdf
+├── 1782402373124_BrightTV_Case_Study.pdf
+└── Bright_TV_-Dataset.xlsx
 ```
 
 ---
 
 ## 📊 Presentation
 
-**`presentation/BrightTV_Viewership_Analytics.pptx`** — 18 slides with full speaker notes,
+**`BrightTV_Viewership_Presentation.pptx`** — 18 slides with full speaker notes,
 built for a 20-minute CVM walkthrough.
-
-![Presentation preview](diagrams/preview/presentation_preview.png)
 
 ---
 
 ## 🧠 Mind Map
 
-**`diagrams/BrightTV_MindMap.png`** — the whole case study on one page: business problem,
+**`BrightTV_MindMap.png`** — the whole case study on one page: business problem,
 methodology, trends, consumption factors, the Monday opportunity, and growth initiatives.
 
-![Mind map preview](diagrams/BrightTV_MindMap.png)
+![Mind map preview](BrightTV_MindMap.png)
 
 ---
 
 ## 📅 Project Timeline
 
-**`diagrams/BrightTV_GanttChart.png`** — how this case study itself was planned and
+**`BrightTV_GanttChart.png`** — how this case study itself was planned and
 delivered, from data cleaning through to final QA (~18 working days).
 
-![Gantt chart preview](diagrams/BrightTV_GanttChart.png)
+![Gantt chart preview](BrightTV_GanttChart.png)
+
+---
+
+## 📓 Notebook
+
+**`BrightTV_Analysis_Dashboard.ipynb`** — the full analysis notebook behind the
+dashboards and findings above.
 
 ---
 
@@ -87,7 +88,8 @@ delivered, from data cleaning through to final QA (~18 working days).
 
 | File | Description |
 |---|---|
-| `BrightTV_Case_Study.pdf` | Original case study brief and assignment instructions |
+| `1782402373124_BrightTV_Case_Study.pdf` | Original case study brief and assignment instructions |
+| `BrightTV_Project_Description.pdf` | Project description document |
 | `Bright_TV_-Dataset.xlsx` | Raw dataset — `User Profiles` (5,375 records) and `Viewership` (10,000 raw sessions) sheets |
 
 ---
