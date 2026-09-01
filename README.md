@@ -8,6 +8,7 @@ profiles and viewing session data to turn raw behaviour into subscriber growth a
   <img src="https://img.shields.io/badge/period-Q1%202016-2B1E6B" alt="period Q1 2016">
   <img src="https://img.shields.io/badge/sessions-9%2C995-8A7FE0" alt="sessions 9995">
   <img src="https://img.shields.io/badge/users-4%2C386-F5A623" alt="users 4386">
+  <a href="https://tvinsight-hub.lovable.app"><img src="https://img.shields.io/badge/dashboard-live-E8A33D" alt="live dashboard"></a>
 </p>
 
 ---
@@ -24,6 +25,14 @@ This case study answers four questions for the CVM team:
 
 ---
 
+## 📺 Live Dashboard
+
+**[tvinsight-hub.lovable.app](https://tvinsight-hub.lovable.app)** — an interactive
+dashboard covering subscriber demographics, top channels, and viewing patterns by hour
+and day, built from the analysis in this repo.
+
+---
+
 ## 🗂️ Repository Contents
 
 ```
@@ -35,6 +44,8 @@ BrightTV_Analysis/
 │   ├── BrightTV_MindMap.png
 │   ├── BrightTV_GanttChart.png
 │   └── preview/presentation_preview.png
+├── notebooks/
+│   └── BrightTV_Analysis.ipynb
 └── source-data/
     ├── BrightTV_Case_Study.pdf
     └── Bright_TV_-Dataset.xlsx
