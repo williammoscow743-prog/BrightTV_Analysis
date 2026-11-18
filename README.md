@@ -14,6 +14,14 @@ profiles and viewing session data to turn raw behaviour into subscriber growth a
 
 ---
 
+## 🔀 Project Flowchart
+
+![Project flowchart](BrightTV_flowchart.png)
+
+The flowchart shows each step from loading the raw data to the final outputs, including the decision points. The Graphviz source is in [`brighttv.dot`](brighttv.dot).
+
+---
+
 ## 🎯 The Brief
 
 BrightTV's CEO set a clear objective: **grow the subscription base this financial year.**

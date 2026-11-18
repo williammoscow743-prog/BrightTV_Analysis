@@ -1,0 +1,37 @@
+digraph G {
+  graph [rankdir=TB, fontname="Helvetica", fontsize=13, pad=0.4, nodesep=0.35, ranksep=0.42, bgcolor="white",
+         label="BrightTV Viewership Analytics: project flow", labelloc=t, fontcolor="#1F4E79"];
+  node  [fontname="Helvetica", fontsize=11, shape=box, style="rounded,filled", fillcolor="#EAF1F8", color="#1F4E79", margin="0.2,0.08"];
+  edge  [fontname="Helvetica", fontsize=10, color="#555555", arrowsize=0.7];
+
+  start [label="Start\nBright_TV_-Dataset.xlsx\nUser Profiles (5,375) · Viewership (10,000 raw sessions)", shape=oval, fillcolor="#1F4E79", fontcolor="white"];
+  load  [label="1. Load\nRead both sheets with pandas, convert to Spark DataFrames"];
+  blank [label="2. Clean\nBlank or whitespace strings to nulls\nTrim and standardise text fields"];
+  dups  [label="3. Exact duplicate sessions?", shape=diamond, style="filled", fillcolor="#FFF4DC", margin="0.05,0.02"];
+  dupY  [label="Remove exact duplicates\n10,000 raw to 9,995 valid sessions"];
+  tz    [label="4. Convert timestamps\nUTC to South African time (Africa/Johannesburg, UTC+2)"];
+  feat  [label="5. Feature engineering\nDate, day of week, hour\nAge bands (0-17 to 65+)"];
+  age   [label="6. Age missing?", shape=diamond, style="filled", fillcolor="#FFF4DC", margin="0.05,0.02"];
+  ageY  [label="Band as 'Unknown'\n(920 users excluded from age charts)"];
+  usage [label="7. Usage analysis\nChannels · viewing by hour and day · session duration"];
+  fact  [label="8. Factors analysis\nDedupe users on UserID and sessions on UserID + date + channel\nThen join users to sessions"];
+  check [label="9. Joined rows = session rows?", shape=diamond, style="filled", fillcolor="#FFF4DC", margin="0.05,0.02"];
+  fix   [label="Fix join before reporting\n(an earlier join inflated counts ~10,000×)", fillcolor="#FBE3E0", color="#B5473A"];
+  cons  [label="10. Consumption findings\nGender · province · age · channel · day and hour"];
+  rec   [label="11. Insights & recommendations\n25-44 audience · Monday programming · Gauteng focus"];
+  out   [label="Outputs\nNotebook · dashboard figure (PNG) · Lovable dashboard\nData Studio report · 18-slide presentation · README", shape=oval, fillcolor="#1F4E79", fontcolor="white"];
+
+  start -> load -> blank -> dups;
+  dups -> dupY [label="yes"]; dupY -> tz;
+  dups -> tz [label="no"];
+  tz -> feat -> age;
+  age -> ageY [label="yes"]; ageY -> usage;
+  age -> usage [label="no"];
+  usage -> fact -> check;
+  check -> fix [label="no"]; fix -> fact [style=dashed, label="re-run"];
+  check -> cons [label="yes"];
+  cons -> rec -> out;
+  {rank=same; dupY; dups}
+  {rank=same; ageY; age}
+  {rank=same; fix; check}
+}
