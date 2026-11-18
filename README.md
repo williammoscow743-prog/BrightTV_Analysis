@@ -46,7 +46,7 @@ BrightTV_Analysis/
 ├── BrightTV_MindMap.png
 ├── BrightTV_GanttChart.png
 ├── BrightTV_Project_Description.pdf
-├── 1782402373124_BrightTV_Case_Study.pdf
+├── BrightTV_Case_Study.pdf
 └── Bright_TV_-Dataset.xlsx
 ```
 
@@ -65,6 +65,31 @@ built for a 20-minute CVM walkthrough.
 methodology, trends, consumption factors, the Monday opportunity, and growth initiatives.
 
 ![Mind map preview](BrightTV_MindMap.png)
+
+---
+
+## 🛠️ Tools Used
+
+- **Python** (the main analysis language)
+- **PySpark** on Databricks for loading, cleaning, joins, and aggregation
+- **pandas** for reading the Excel file and preparing the charts
+- **Matplotlib** for the dashboard figure and charts
+- **Databricks** notebook and Unity Catalog
+- **Lovable** for the interactive dashboard
+- **Google Data Studio / Looker Studio** for the stakeholder report
+- **PowerPoint** for the 18-slide presentation
+- **GitHub** for version control and documentation
+
+---
+
+## 🔄 Process
+
+1. **Load:** read the `User Profiles` and `Viewership` sheets into pandas, then convert them to Spark DataFrames.
+2. **Clean:** turn blank strings into real nulls, remove exact duplicate sessions (10,000 to 9,995), and convert UTC timestamps to South African time (UTC+2).
+3. **Engineer features:** add the date, day of week, hour, and age bands used in the charts.
+4. **Analyse usage:** look at channels, viewing by hour and day, and session duration.
+5. **Analyse factors:** join users to viewing sessions on `UserID`, after removing duplicates on both sides so the row count is validated.
+6. **Build outputs:** create the combined dashboard figure, the Lovable dashboard, the Data Studio report, and the presentation.
 
 ---
 
@@ -88,7 +113,7 @@ dashboards and findings above.
 
 | File | Description |
 |---|---|
-| `1782402373124_BrightTV_Case_Study.pdf` | Original case study brief and assignment instructions |
+| `BrightTV_Case_Study.pdf` | Original case study brief and assignment instructions |
 | `BrightTV_Project_Description.pdf` | Project description document |
 | `Bright_TV_-Dataset.xlsx` | Raw dataset — `User Profiles` (5,375 records) and `Viewership` (10,000 raw sessions) sheets |
 
