@@ -20,6 +20,8 @@ profiles and viewing session data to turn raw behaviour into subscriber growth a
 
 The flowchart shows each step from loading the raw data to the final outputs, including the decision points. The Graphviz source is in [`brighttv.dot`](brighttv.dot).
 
+The same flowchart is also on Miro: [Bright TV project flowchart (Miro)](https://miro.com/app/board/uXjVEMTY4cg=/?share_link_id=118771072804).
+
 ---
 
 ## 🎯 The Brief
