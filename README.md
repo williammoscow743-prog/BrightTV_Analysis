@@ -54,6 +54,7 @@ BrightTV_Analysis/
 ├── BrightTV_MindMap.png
 ├── BrightTV_GanttChart.png
 ├── BrightTV_Project_Description.pdf
+├── BrightTV_Dashboard.pdf
 ├── BrightTV_Case_Study.pdf
 └── Bright_TV_-Dataset.xlsx
 ```
@@ -124,6 +125,7 @@ dashboards and findings above.
 |---|---|
 | `BrightTV_Case_Study.pdf` | Original case study brief and assignment instructions |
 | `BrightTV_Project_Description.pdf` | Project description document |
+| `BrightTV_Dashboard.pdf` | Looker Studio dashboard export (audience, days, channels, recommendations) |
 | `Bright_TV_-Dataset.xlsx` | Raw dataset — `User Profiles` (5,375 records) and `Viewership` (10,000 raw sessions) sheets |
 
 ---
