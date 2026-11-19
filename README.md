@@ -169,3 +169,7 @@ Methodology* slide.
 Findings throughout this analysis describe **observed associations** in the data, not
 proven causation. Confirming what actually drives consumption (e.g. content genre, time
 of day) would require controlled testing such as scheduling or content A/B trials.
+
+## 📊 Dashboard (Canva)
+
+[View the BrightTV viewership dashboard (PDF)](BrightTV_Viewership_Dashboard.pdf)
