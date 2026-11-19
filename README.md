@@ -173,3 +173,7 @@ of day) would require controlled testing such as scheduling or content A/B trial
 ## 📊 Dashboard (Canva)
 
 [View the BrightTV viewership dashboard (PDF)](BrightTV_Viewership_Dashboard.pdf)
+
+## ℹ️ Note on the Live Dashboard
+
+The live Lovable dashboard (tvinsight-hub.lovable.app) still shows the unmerged figure of 1,637 sessions for Supersport Live Events, because its two spellings ("Supersport Live Events" and "SuperSport Live Events") were counted separately. The correct merged total is **1,661 sessions and 1,175 users**, which is the figure used in the project description and the dashboard export. The Lovable project has been updated to the merged figure and is awaiting redeployment.
