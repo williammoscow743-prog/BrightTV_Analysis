@@ -106,8 +106,8 @@ methodology, trends, consumption factors, the Monday opportunity, and growth ini
 
 ## 📅 Project Timeline
 
-**`BrightTV_GanttChart.png`** — how this case study was delivered, from 26 October
-to 18 November 2026 (18 working days), from data cleaning through to final QA. Each
+**`BrightTV_GanttChart.png`** — how this case study was delivered, from 25 August
+to 17 September 2026 (18 working days, about 3.5 weeks), from data cleaning through to final QA. Each
 phase is shown with its start and end date.
 
 ![Gantt chart preview](BrightTV_GanttChart.png)
